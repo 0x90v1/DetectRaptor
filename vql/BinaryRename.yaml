@@ -28,6 +28,7 @@ parameters:
     type: csv
     default: |
         Filename,Internal,Original,Description,Note
+        SharpHound.exe,SharpHound.exe,SharpHound.exe,SharpHound,SharpHound
         cmd.exe,cmd,Cmd.Exe,Windows Command Processor,cmd.exe
         7z.exe,7z,7z.exe,7-Zip Console,7z.exe
         certutil.exe,CertUtil.exe,CertUtil.exe,CertUtil,certutil.exe
