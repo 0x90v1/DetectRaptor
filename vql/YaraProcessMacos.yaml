@@ -331,7 +331,7 @@ parameters:
         		license_url = "https://github.com/elastic/protections-artifacts//blob/3e068e2ab4a045350c67ae26ff1439149ad68d1d/LICENSE.txt"
         		logic_hash = "72e0c1a7507733157f93e2bff82e6ec10d50986020eeeb27a02aba5cd8c78a81"
         		score = 75
-        		quality = 21
+        		quality = 46
         		tags = "FILE, MEMORY"
         		fingerprint = "744e5e82bd90dc75031c2ce8208e9b8d10f062a57666f7e7be9428321f2929cc"
         		severity = 100
