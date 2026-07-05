@@ -1332,7 +1332,7 @@ rule SIGNATURE_BASE_WEBSHELL_Compiled_Webshell_Mar2021_1 : FILE {
 		license_url = "https://github.com/Neo23x0/signature-base/blob/43b2b2faafdaeb7f00102673f62555a2feb04c1b/LICENSE"
 		logic_hash = "d2e5f91f7bb50984c491eb9632d3863febc986760e4d03c8255872887ce4dc4a"
 		score = 75
-		quality = 81
+		quality = 56
 		tags = "FILE"
 
 	strings:
@@ -3719,6 +3719,7 @@ rule SIGNATURE_BASE_WEBSHELL_PHP_Base64_Encoded_Payloads : FILE {
 		hash = "e2b1dfcfaa61e92526a3a444be6c65330a8db4e692543a421e19711760f6ffe2"
 		logic_hash = "8f606dc3e1e688cca144fe769af50980b4c25fa69b08c67aca8c676a6a060010"
 		score = 75
+		quality = 17
 		tags = "FILE"
 		license = "Detection Rule License 1.1 https://github.com/Neo23x0/signature-base/blob/master/LICENSE"
 		importance = 70
@@ -4069,7 +4070,6 @@ rule SIGNATURE_BASE_WEBSHELL_PHP_OBFUSC_Encoded_Mixed_Dec_And_Hex : FILE {
 		hash = "0ff05e6695074f98b0dee6200697a997c509a652f746d2c1c92c0b0a0552ca47"
 		logic_hash = "d9b4d224d43915cf08050c173627b314c3e41a30ecfffe28038281eadc114e51"
 		score = 75
-		quality = 17
 		tags = "FILE"
 		license = "Detection Rule License 1.1 https://github.com/Neo23x0/signature-base/blob/master/LICENSE"
 		importance = 70
@@ -4172,7 +4172,7 @@ rule SIGNATURE_BASE_WEBSHELL_PHP_OBFUSC_Str_Replace : FILE {
 		hash = "e1a2af3477d62a58f9e6431f5a4a123fb897ea80"
 		logic_hash = "74fb86a7ee7342ede9f49ef004a92fb7bdf06ca62f8e8f0ea1c6adcff96bcb2d"
 		score = 75
-		quality = 21
+		quality = 46
 		tags = "FILE"
 		license = "Detection Rule License 1.1 https://github.com/Neo23x0/signature-base/blob/master/LICENSE"
 		importance = 70
@@ -4520,6 +4520,7 @@ rule SIGNATURE_BASE_WEBSHELL_PHP_Includer_Eval : FILE {
 		hash = "b51a6d208ec3a44a67cce16dcc1e93cdb06fe150acf16222815333ddf52d4db8"
 		logic_hash = "a7e9632c495e5d4cc883e2593c8ebe41cdf6a18b54bd6dfd3aec85352f19321c"
 		score = 75
+		quality = 21
 		tags = "FILE"
 		license = "Detection Rule License 1.1 https://github.com/Neo23x0/signature-base/blob/master/LICENSE"
 		importance = 70
@@ -5147,7 +5148,7 @@ rule SIGNATURE_BASE_WEBSHELL_PHP_Function_Via_Get : FILE {
 		hash = "73fa97372b3bb829835270a5e20259163ecc3fdbf73ef2a99cb80709ea4572be"
 		logic_hash = "309203db8e7374531d359e3a723418d47bead45034c4a7bd726fb714622dc039"
 		score = 75
-		quality = 58
+		quality = 33
 		tags = "FILE"
 		license = "Detection Rule License 1.1 https://github.com/Neo23x0/signature-base/blob/master/LICENSE"
 		importance = 70
@@ -5192,7 +5193,7 @@ rule SIGNATURE_BASE_WEBSHELL_PHP_Writer : FILE {
 		hash = "20281d16838f707c86b1ff1428a293ed6aec0e97"
 		logic_hash = "34bae0c02156d1c9fd24d674443322409eba0a43e094fc6c05df94bbbe15aa64"
 		score = 50
-		quality = 42
+		quality = 17
 		tags = "FILE"
 		license = "Detection Rule License 1.1 https://github.com/Neo23x0/signature-base/blob/master/LICENSE"
 		importance = 70
@@ -6599,7 +6600,7 @@ rule SIGNATURE_BASE_WEBSHELL_JSP_Regeorg : FILE {
 		hash = "9108a33058aa9a2fb6118b719c5b1318f33f0989"
 		logic_hash = "9d4c60a4daaadf6cefe8bf1d84b1e4af491cd23136332db4a022715b265c8f4e"
 		score = 75
-		quality = 50
+		quality = 25
 		tags = "FILE"
 		license = "Detection Rule License 1.1 https://github.com/Neo23x0/signature-base/blob/master/LICENSE"
 		importance = 70
@@ -6978,7 +6979,6 @@ rule SIGNATURE_BASE_WEBSHELL_JSP_Generic_Classloader : FILE {
 		hash = "8e544a5f0c242d1f7be503e045738369405d39731fcd553a38b568e0889af1f2"
 		logic_hash = "109c0063f4e8db6172fd872b3b93d4f069234f28bbf033fbd2c5f135051df77e"
 		score = 75
-		quality = 0
 		tags = "FILE"
 		license = "Detection Rule License 1.1 https://github.com/Neo23x0/signature-base/blob/master/LICENSE"
 		importance = 70
@@ -7108,7 +7108,6 @@ rule SIGNATURE_BASE_WEBSHELL_JSP_By_String : FILE {
 		hash = "850f998753fde301d7c688b4eca784a045130039512cf51292fcb678187c560b"
 		logic_hash = "ab8d8df32ab745d8dd02d63d89264df2fbc0087daf6b4f91900ad03ab6e7949e"
 		score = 75
-		quality = 19
 		tags = "FILE"
 		license = "Detection Rule License 1.1 https://github.com/Neo23x0/signature-base/blob/master/LICENSE"
 		importance = 70
@@ -25350,7 +25349,7 @@ rule SIGNATURE_BASE_WEBSHELL_ASPX_Compiled_Sharepoint_Drop_CVE_2025_53770_Jul25_
 		hash = "7e9b77da1f51d03ee2f96bc976f6aeb781f801cf633862a4b8c356cbb555927d"
 		logic_hash = "df11e5bd293cf094f3a147b54ecaafbe0804d7d575fcc22f38e77ab155c7ebdc"
 		score = 75
-		quality = 83
+		quality = 58
 		tags = "CVE-2025-53770, FILE"
 
 	strings:
@@ -25882,7 +25881,7 @@ rule SIGNATURE_BASE_Chinachopper_Generic : FILE {
 		license_url = "https://github.com/Neo23x0/signature-base/blob/43b2b2faafdaeb7f00102673f62555a2feb04c1b/LICENSE"
 		logic_hash = "34cb81b077d6dae5b4565001b2ab28897c6c554f00aa102601fb9c416c6c0f09"
 		score = 75
-		quality = 85
+		quality = 60
 		tags = "FILE"
 		license = "Detection Rule License 1.1 https://github.com/Neo23x0/signature-base/blob/master/LICENSE"
 
